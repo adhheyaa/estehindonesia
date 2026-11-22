@@ -1,0 +1,340 @@
+*,
+html {
+  margin: 0; 
+  padding: 0; 
+}
+
+.container {}
+
+.container-navbar {
+  background-color: #A5CC45;
+  width: 100%;   
+  height: 15vh;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center; #FFFFFF
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+  font-size: 30;
+}
+
+.li-navbar:hover {
+  background-color: brown;
+  transition: .7s ease-in-out;
+  transition-delay: .3s;
+  border-radius: 8px;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.container-content {
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.a-content {
+  background-color: #A5CC45;
+  color: #FFFFFF
+  ;
+  text-decoration: none;
+  font-size: 12px;
+  width: 570px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 80px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+ width: 75%; 
+ height: 55%;
+}
+
+.container-footer {
+  height: 5vh;
+  background-color: #A5CC45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-footer {
+  font-size: 20px;
+  color: white;
+}
+
+*,
+html {
+  margin: 0; 
+  padding: 0; 
+}
+
+.container {}
+
+.container-navbar {
+  background-color: #f20b83;
+  width: 100%;   
+  height: 15vh;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+  font-size: 27;
+}
+
+.li-navbar:hover {
+  background-color: pink;
+  transition: .7s ease-in-out;
+  transition-delay: .3s;
+  border-radius: 5px;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.container-content {
+  background-color: #ffd447;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.a-content {
+  background-color: white;
+  color: darkred;
+  text-decoration: none;
+  font-size: 12px;
+  width: 570px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 80px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+ width: 70%; 
+ height: 70%;
+}
+
+.container-footer {
+  height: 20vh;
+  background-color: #f20b83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-footer {
+  font-size: 20px;
+  color: white;
+}
+
+/* JUDUL MENU */
+.judul-menu {
+    color: #6b3e26;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.deskripsi-menu {
+    color: #6b3e26;
+    margin-bottom: 30px;
+}
+
+/* CONTAINER MENU */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+}
+
+/* KARTU PRODUK */
+.menu-card {
+    background-color: #fff8f0;
+    width: 180px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+}
+
+/* FOTO PRODUK */
+.menu-card img {
+    width: 85%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* NAMA PRODUK */
+.menu-card h3 {
+    color: #6b3e26;
+    margin: 12px 0 8px;
+}
+
+/* DESKRIPSI */
+.menu-card p {
+    color: #777;
+    font-size: 13px;
+}
+
+/* HARGA */
+.menu-card h4 {
+    color: #c56b36;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* BAGIAN CONTENT MENU */
+.container-content {
+    background-color: #A5CC45;
+    width: 100%;
+    min-height: 650px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 35px 20px 50px;
+    overflow: visible;
+    text-align: center;
+}
+
+/* JUDUL MENU */
+.judul-menu {
+    color: #713D20;
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+
+/* DESKRIPSI MENU */
+.deskripsi-menu {
+    color: #713D20;
+    margin-bottom: 30px;
+}
+
+/* SUSUNAN PRODUK */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    justify-content: center;
+    gap: 35px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* KARTU PRODUK */
+.menu-card {
+    background-color: #FFF8F0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    border-radius: 22px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* FOTO PRODUK */
+.menu-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* NAMA PRODUK */
+.menu-card h3 {
+    color: #713D20;
+    font-size: 20px;
+    margin: 12px 0;
+}
+
+/* DESKRIPSI PRODUK */
+.menu-card p {
+    color: #777;
+    font-size: 14px;
+}
+
+/* HARGA */
+.menu-card h4 {
+    color: #C96B2C;
+    font-size: 20px;
+    margin: 12px 0 0;
+}
+
+/* TAMPILAN TABLET */
+@media (max-width: 1100px) {
+    .menu-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* TAMPILAN HP */
+@media (max-width: 650px) {
+    .menu-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .menu-card img {
+        height: 140px;
+    }
+
+    .menu-card h3 {
+        font-size: 17px;
+    }
+}
